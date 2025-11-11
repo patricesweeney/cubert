@@ -1,0 +1,4 @@
+Test commit via assistant on 2025-11-11
+File: cubert-ping.txt
+Purpose: Harmless marker to verify push access.
+
