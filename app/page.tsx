@@ -1,19 +1,9 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import { Tiles } from "@/components/tiles";
 import { ArrChart } from "@/components/charts/arr-chart";
 import { GrowthChart } from "@/components/charts/growth-chart";
 import { HalfChart } from "@/components/charts/half-chart";
 
 export default function HomePage() {
-	const [ready, setReady] = useState(false);
-	useEffect(() => {
-		setReady(true);
-	}, []);
-
-	if (!ready) return null;
-
 	return (
 		<div className="space-y-6">
 			<Tiles />

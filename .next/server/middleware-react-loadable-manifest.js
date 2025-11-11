@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"node_modules/msw/lib/core/utils/internal/parseGraphQLRequest.mjs -> graphql\":{\"id\":\"node_modules/msw/lib/core/utils/internal/parseGraphQLRequest.mjs -> graphql\",\"files\":[]}}"
