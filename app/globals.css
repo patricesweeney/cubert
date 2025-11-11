@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+	--color-neutral-bg: #F6F7F8; /* page background */
+	--color-neutral-surface: #FFFFFF; /* card surface */
+	--color-neutral-text: #0F1724; /* primary text, high contrast */
+	--color-neutral-muted: #9AA3AD; /* subtle labels, gridlines */
+
+	--color-accent: #005F73; /* forecast line, band, markers */
+	--color-accent-strong: #003F4A; /* SE bars, line stroke */
+	--color-accent-band-alpha: 0.18; /* band opacity for mean ±1 SE */
+
+	--color-negative: #D64545; /* contraction/churn */
+	--color-warning: #FFB020; /* alerts / thresholds */
+}
+
+html, body, :root {
+	height: 100%;
+}
+
+body {
+	background: var(--color-neutral-bg);
+	color: var(--color-neutral-text);
+}
+
+/* Typography scale with Geist */
+.text-2xs { font-size: 10px; line-height: 16px; }
+.text-xs  { font-size: 12px; line-height: 18px; }
+.text-sm  { font-size: 14px; line-height: 20px; }
+.text-md  { font-size: 16px; line-height: 24px; }
+.text-lg  { font-size: 20px; line-height: 28px; }
+.text-xl  { font-size: 24px; line-height: 32px; }
+
+/* Utilities */
+.card {
+	background: var(--color-neutral-surface);
+	border: 1px solid rgba(15,23,36,0.06);
+	border-radius: 12px;
+}
+
